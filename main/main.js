@@ -16,7 +16,7 @@
 		    	    	    	minimum=array[i];
 		    	    	    }
 		    	       }
-                               document.write("</br>");
+                               alert("\n");
 		    	       return minimum;
 	    	  };
 	    	  Sequence.prototype.maxmum=function(){
@@ -26,12 +26,12 @@
 		    	    	    	maxmum=array[i];
 		    	    	    }
 		    	       }
-                               document.write("</br>");
+                               alert("\n");
 		    	       return maxmum;
 	    	  };
 	    	  Sequence.prototype.count=function(){
 		    		   var count=array.length;
-                                   document.write("</br>");
+                                   alert("\n");
 		    		   return count;
 	    	  }
 	    	  Sequence.prototype.avg=function(){
@@ -41,6 +41,7 @@
 		    	    	     sum=sum+array[i];
 		    	       }
 		    		  avg=(sum/(array.length)).toFixed(2);
+                                  alert("\n");
 		    		  return avg;
 	    	  };
   	};
